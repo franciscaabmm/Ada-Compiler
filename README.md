@@ -25,9 +25,9 @@ O compilador segue um pipeline clássico de 5 fases:
 └──────┬──────┘
        │
        ▼
-┌─────────────┐     ┌──────────────────────────────────┐
-│   Lexer     │────▶│  Sequência de Tokens              │
-└─────────────┘     └───────────────┬──────────────────┘
+┌─────────────┐      ┌──────────────────────────────────┐
+│   Lexer     │────▶ │  Sequência de Tokens            │
+└─────────────┘      └───────────────┬──────────────────┘
                                     │
                                     ▼
                     ┌──────────────────────────────────┐
@@ -36,18 +36,18 @@ O compilador segue um pipeline clássico de 5 fases:
                                     │
                                     ▼
                     ┌──────────────────────────────────┐
-                    │   Análise Semântica               │
-                    │   + Tabela de Símbolos            │
+                    │   Análise Semântica              │
+                    │   + Tabela de Símbolos           │
                     └───────────────┬──────────────────┘
                                     │
                                     ▼
                     ┌──────────────────────────────────┐
-                    │   Three-Address Code (TAC)        │
+                    │   Three-Address Code (TAC)       │
                     └───────────────┬──────────────────┘
                                     │
                                     ▼
                     ┌──────────────────────────────────┐
-                    │   Código Assembly MIPS (.asm)     │
+                    │   Código Assembly MIPS (.asm)    │
                     └──────────────────────────────────┘
 ```
 
