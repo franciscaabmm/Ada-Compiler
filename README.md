@@ -3,7 +3,7 @@
 > Projeto final da cadeira de **Compiladores** na FCUP — um compilador completo para um subset de Ada, escrito de raiz em Haskell, que gera assembly MIPS executável.
 
 **Grupo 5 · FCUP · Novembro 2025**  
-Francisca Macedo · [Flávia Queiroz](https://github.com/flaviaqueiroz)
+Francisca Macedo · [Flávia Queiroz](https://github.com/fravenha)
 
 ---
 
